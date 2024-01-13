@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
                          style: TextStyle(fontSize: 50,
                            color: Colors.white,
                            fontWeight: FontWeight.w600,
-                           backgroundColor: Colors.blueAccent,
+                           backgroundColor: Color(0xC340A26C),
 
                          ),
                          textAlign: TextAlign.center,
@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
                               fontSize: 50,
                               color: Colors.white,//Color(0xff504747),
                               fontWeight: FontWeight.w600,
-                              backgroundColor: Colors.blue
+                              backgroundColor: Color(0xCA5A8CEF)
                           ),
                           textAlign: TextAlign.center,
                         ),

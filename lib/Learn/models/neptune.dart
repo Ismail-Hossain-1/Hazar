@@ -29,7 +29,7 @@ class _NeptuneState extends State<Neptune> {
         },
       ),
     )
-    ..loadRequest(Uri.parse('https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%AF'));
+    ..loadRequest(Uri.parse('https://en.wikipedia.org/wiki/Neptune'));
 
 
   @override

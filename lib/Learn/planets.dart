@@ -18,9 +18,10 @@ class Planets extends StatefulWidget {
         begin: Alignment.topRight,
         end: Alignment.bottomLeft,
         colors: [
-          Colors.blue,
-          Colors.lime,
-          Colors.tealAccent,
+         // Colors.blue,
+          Colors.black,
+          Color(0xFF4E5406),
+
         ],
       ),
 
@@ -39,11 +40,11 @@ class Planets extends StatefulWidget {
     ),
 
   );
-  static var link_grd=  LinearGradient(
+  static var link_grd=  const LinearGradient(
     begin: Alignment.topRight,
     end: Alignment.bottomLeft,
     colors: [
-      Colors.blue,
+      Color(0xAD04C5FC),
       Colors.greenAccent,
 
     ],
@@ -73,8 +74,10 @@ class _HomeState extends State<Planets> {
     return Scaffold (
 
      // appBar: Sun.appBar,
+     backgroundColor: const Color(0xFF070707),
 
       body: SafeArea(
+
         child: ListView(
 
           padding: const EdgeInsets.all(8),
@@ -95,7 +98,7 @@ class _HomeState extends State<Planets> {
                 disableZoom: true,
               ),
 
-            ),
+            ), //Sun
             // Page Link
             Container(
               padding: EdgeInsets.all(30),
@@ -129,14 +132,14 @@ class _HomeState extends State<Planets> {
                   Icons.dataset_linked_rounded,
                   size: 40,
                   color: Color.fromRGBO(31, 241, 173, 1.0), ),
-                label: const Text("Planets More about Sun",
+                label: const Text("Learn More about Sun",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
 
               ),
 
-            ),
+            ), //Sun
             //CustomMultiChildLayout(delegate: children)
             Planets.scroll,
             Container(
@@ -167,7 +170,7 @@ class _HomeState extends State<Planets> {
                 border: Border.all(width: 10, color: Colors.black26),
                 gradient: Planets.link_grd,
                 image:const DecorationImage(
-                  image: AssetImage("assets/img/mercury.jpg"),
+                  image: AssetImage("assets/img/mercury.png"),
                   fit: BoxFit.fill,
                   opacity: 0.7,
                 ),
@@ -187,10 +190,10 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Mercury",
+                label: const Text("Learn More about Mercury",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
-                    fontSize: 30, ),),
+                    fontSize: 26, ),),
 
               ),
 
@@ -224,7 +227,7 @@ class _HomeState extends State<Planets> {
                 border: Border.all(width: 10, color: Colors.black26),
                 gradient: Planets.link_grd,
                 image:const DecorationImage(
-                  image: AssetImage("assets/img/venus.jpg"),
+                  image: AssetImage("assets/img/venus.png"),
                   fit: BoxFit.fill,
                   opacity: 0.7,
                 ),
@@ -244,7 +247,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Venus",
+                label: const Text("Learn More about Venus",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -301,7 +304,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Earth",
+                label: const Text("Learn More about Earth",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -358,7 +361,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Mars",
+                label: const Text("Learn More about Mars",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -395,7 +398,7 @@ class _HomeState extends State<Planets> {
                 border: Border.all(width: 10, color: Colors.black26),
                 gradient: Planets.link_grd,
                 image:const DecorationImage(
-                  image: AssetImage("assets/img/jupiter.jpg"),
+                  image: AssetImage("assets/img/jupiter.png"),
                   fit: BoxFit.fill,
                   opacity: 0.7,
                 ),
@@ -415,7 +418,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Jupiter",
+                label: const Text("Learn More about Jupiter",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -473,7 +476,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Saturn",
+                label: const Text("Learn More about Saturn",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -510,7 +513,7 @@ class _HomeState extends State<Planets> {
                 border: Border.all(width: 10, color: Colors.black26),
                 gradient: Planets.link_grd,
                 image:const DecorationImage(
-                  image: AssetImage("assets/img/uranus.jpg"),
+                  image: AssetImage("assets/img/uranus.png"),
                   fit: BoxFit.fill,
                   opacity: 0.7,
                 ),
@@ -530,7 +533,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Uranus",
+                label: const Text("Learn More about Uranus",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 30, ),),
@@ -589,7 +592,7 @@ class _HomeState extends State<Planets> {
                   );
                 },
                 icon : Planets.icn,
-                label: const Text("Planets More about Neptune",
+                label: const Text("Learn More about Neptune",
                   style: TextStyle(color: Color.fromARGB(
                       255, 232, 245, 232),
                     fontSize: 26, ),),

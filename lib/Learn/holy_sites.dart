@@ -70,7 +70,7 @@ class _HomeState extends State<Holy_sites> {
   @override
   Scaffold build(BuildContext context) {
     return Scaffold(
-
+      backgroundColor: Color(0xFF1C521A),
      // appBar: Sun.appBar,
 
       body: SafeArea(

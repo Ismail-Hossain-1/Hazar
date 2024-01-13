@@ -1,6 +1,6 @@
 {
-    "name": "3D View",
-    "short_name": "3D view",
+    "name": "Talib",
+    "short_name": "Talib",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
