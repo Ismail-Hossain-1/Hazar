@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Hazar
 =======
 # flutter_tutorial
@@ -18,3 +19,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 >>>>>>> db1c525 (initial commit)
+=======
+# Hazar
+>>>>>>> a4ac2441df8f1040b1dcf7cc09f0068673e75910
