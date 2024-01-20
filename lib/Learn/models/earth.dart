@@ -36,8 +36,9 @@ class _EarthState extends State<Earth> {
   Scaffold build(BuildContext context) {
     return Scaffold (
 
-      appBar: Sun.appBar,
-      body: WebViewWidget(controller: controller,),
+     // appBar: Sun.appBar,
+      body: SafeArea(
+          child: WebViewWidget(controller: controller,)),
     );
   }
 }

@@ -10,7 +10,7 @@ import 'test.dart';
 void main() {
   runApp( const MaterialApp(
     debugShowCheckedModeBanner: false,
-    title: "First",
+    title: "Talib",
     home: Home(),
   ));
 }
@@ -65,7 +65,7 @@ class _HomeState extends State<Home> {
                      padding: EdgeInsets.all(8),
                      child: const Center(
                        child: Text(
-                         "Learn with Joy",
+                         " Learn",
                          style: TextStyle(fontSize: 50,
                            color: Colors.white,
                            fontWeight: FontWeight.w600,
@@ -103,7 +103,7 @@ class _HomeState extends State<Home> {
                       padding: EdgeInsets.all(8),
                       child: const Center(
                         child: Text(
-                          "Test Yourself",
+                          " Test Yourself",
                           style: TextStyle(
                               fontSize: 50,
                               color: Colors.white,//Color(0xff504747),

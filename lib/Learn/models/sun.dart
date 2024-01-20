@@ -13,16 +13,16 @@ class Sun extends StatelessWidget {
      );
 
 
-      static var appBar=AppBar(
-        leading: const Icon(Icons.account_circle_rounded),
-        title: const Text("3D view",style: TextStyle(color: Colors.white),),
-        centerTitle: false,
-        backgroundColor: Colors.black26,
-
-
-        elevation: 2,
-
-      );
+      // static var appBar=AppBar(
+      //   leading: const Icon(Icons.account_circle_rounded),
+      //   title: const Text("3D view",style: TextStyle(color: Colors.white),),
+      //   centerTitle: false,
+      //   backgroundColor: Colors.black26,
+      //
+      //
+      //   elevation: 2,
+      //
+      // );
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,7 @@ class Sun extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home:  SunPage(),
 
-      title: "3D View",
+      title: "Talib",
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
@@ -84,8 +84,9 @@ class _SunPageState extends State<SunPage> {
   Scaffold build(BuildContext context) {
     return Scaffold(
 
-      appBar: Sun.appBar,
-      body: WebViewWidget(controller: controller,),
+      //appBar: Sun.appBar,
+      body: SafeArea(
+          child: WebViewWidget(controller: controller,)),
 
     );
   }

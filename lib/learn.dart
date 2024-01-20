@@ -67,7 +67,7 @@ class _HomeState extends State<Learn> {
                       padding: EdgeInsets.all(8),
                       child: const Center(
                         child: Text(
-                          "Learn about planets with Joy",
+                          "Learn about the planets",
                           style: TextStyle(fontSize: 50,
                               fontWeight: FontWeight.w600,
                               color: Color(0xC2E8F5E8),
@@ -95,7 +95,7 @@ class _HomeState extends State<Learn> {
                       );
                     },
                     splashColor: Colors.black26,
-                    hoverColor: Color(0xBBFCE3FF),
+                    hoverColor: Color(0xBBE8D8EC),
                     child: Ink.image(
                       image: const AssetImage('assets/img/holy_sites.png'),
                       height: MediaQuery.of(context).size.height-400,
@@ -107,7 +107,7 @@ class _HomeState extends State<Learn> {
                           "Learn about Holy sites in Islam",
                           style: TextStyle(fontSize: 50,
                             fontWeight: FontWeight.w600,
-                            color: Color(0xDB6C5247),
+                            color: Color(0xDB008A03),
 
                           ),
                           textAlign: TextAlign.center,

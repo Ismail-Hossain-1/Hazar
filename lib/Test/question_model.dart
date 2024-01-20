@@ -25,32 +25,32 @@ List<Question> getQuestions(){
         Answer("Saturn", false),
     ])
   );
-  list.add(Question("Which is closest planet to the Sun",[
-    Answer("Earth", false),
-    Answer("Mercury", true),
-    Answer("Jupiter", false),
+  list.add(Question("Which one is the largest planet in our Solar System?",[
     Answer("Saturn", false),
+    Answer("Neptune", false),
+    Answer("Jupiter", true),
+    Answer("Earth", false),
   ])
   );
-  list.add(Question("Which is closest planet to the Sun",[
+  list.add(Question("Which is the farthest planet from the sun?",[
     Answer("Earth", false),
-    Answer("Mercury", true),
+    Answer("Venus", false),
     Answer("Jupiter", false),
-    Answer("Saturn", false),
+    Answer("Neptune", true),
   ])
   );
-  list.add(Question("Which is closest planet to the Sun",[
-    Answer("Earth", false),
-    Answer("Mercury", true),
-    Answer("Jupiter", false),
-    Answer("Saturn", false),
+  list.add(Question("How many planets are in our Solar System?",[
+    Answer("5", false),
+    Answer("11", false),
+    Answer("8", true),
+    Answer("7", false),
   ])
   );
-  list.add(Question("Which is closest planet to the Sun",[
-    Answer("Earth", false),
-    Answer("Mercury", true),
-    Answer("Jupiter", false),
-    Answer("Saturn", false),
+  list.add(Question("How many planets are in our Solar System called Gas Giant?",[
+    Answer("8", false),
+    Answer("4", true),
+    Answer("7", false),
+    Answer("9", false),
   ])
   );
 

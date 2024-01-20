@@ -36,8 +36,10 @@ class _SaturnState extends State<Saturn> {
   Scaffold build(BuildContext context) {
     return Scaffold (
 
-      appBar: Sun.appBar,
-      body: WebViewWidget(controller: controller,),
+      //appBar: Sun.appBar,
+      body: SafeArea(
+          child: SafeArea(
+              child: WebViewWidget(controller: controller,))),
     );
   }
 }
