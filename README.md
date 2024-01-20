@@ -22,4 +22,8 @@ samples, guidance on mobile development, and a full API reference.
 =======
 # Talib
 
->>>>>>> a4ac2441df8f1040b1dcf7cc09f0068673e75910
+## Activity Diagram of the App
+
+![Talib](https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/337df3b1-3507-442e-ad47-492265669b20)
+
+
