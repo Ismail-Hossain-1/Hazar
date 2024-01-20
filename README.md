@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Hazar
-=======
 # flutter_tutorial
 
 A new Flutter project.
