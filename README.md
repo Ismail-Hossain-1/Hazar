@@ -30,4 +30,6 @@ samples, guidance on mobile development, and a full API reference.
 
 ## 3D Planets Page
 ![3D Planets](https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/c16cf634-8aad-4ee2-a820-39507c8c12ae)
+## Qiuz Page
+![IMG_20240121_230733](https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/b44b6aab-44b9-4f4e-8cc5-3b0ae2021354)
 
