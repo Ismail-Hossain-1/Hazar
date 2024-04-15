@@ -20,7 +20,7 @@ samples, guidance on mobile development, and a full API reference.
 
 ## Activity Diagram of the App
 
-![Talib](<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/337df3b1-3507-442e-ad47-492265669b20" width="200" height="400">)
+<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/337df3b1-3507-442e-ad47-492265669b20" width="200" height="400">
 
 ## Home Page
 ![Home](https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/0d45777f-8f85-427b-b45a-73e7da247aa9)
