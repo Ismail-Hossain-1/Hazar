@@ -26,10 +26,11 @@ samples, guidance on mobile development, and a full API reference.
 <img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/0d45777f-8f85-427b-b45a-73e7da247aa9" width="400" height="600">
 
 ## Learn Page
-<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/99c4e089-a067-4c0c-a1a1-6de3bf96f141" width="400" height="600">
+<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/99c4e089-a067-4c0c-a1a1-6de3bf96f141" width="300" height="600">
 
 ## 3D Planets Page
-<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/c16cf634-8aad-4ee2-a820-39507c8c12ae" width="400" height="600">
+<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/c16cf634-8aad-4ee2-a820-39507c8c12ae" width="300" height="600">
+
 ## Qiuz Page
-<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/b44b6aab-44b9-4f4e-8cc5-3b0ae2021354" width="400" height="600">
+<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/b44b6aab-44b9-4f4e-8cc5-3b0ae2021354" width="300" height="600">
 
