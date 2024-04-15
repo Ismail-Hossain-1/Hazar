@@ -23,7 +23,7 @@ samples, guidance on mobile development, and a full API reference.
 <img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/337df3b1-3507-442e-ad47-492265669b20" width="600" height="400">
 
 ## Home Page
-<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/0d45777f-8f85-427b-b45a-73e7da247aa9" width="400" height="600">
+<img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/0d45777f-8f85-427b-b45a-73e7da247aa9" width="300" height="600">
 
 ## Learn Page
 <img src="https://github.com/Ismail-Hossain-1/flutter_tutorial/assets/107604527/99c4e089-a067-4c0c-a1a1-6de3bf96f141" width="300" height="600">
